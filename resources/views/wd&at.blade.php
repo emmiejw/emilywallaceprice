@@ -3,8 +3,8 @@
             <div class="row">
             <div class="col-md-7">
                   <h2 class="display-5 font-weight-normal text-center">Workplace Drug and Alcohol Testing Ltd</h2>
-                  <p class="lead font-weight-normal">This will be my first ASP.net website with a companing desktop app.  
-                          <p id="ss" class="lead font-weight-normal"></p>
+                  <p class="lead font-weight-normal">This will be my first ASP.net website with a companing desktop app, which I will be producing for a new company called Workplace Drug and Alcohol Testing Ltd.  
+                          <p id="" class="lead font-weight-normal"></p>
                                   <br>
                                   <br>
                       <div class="row icons"><br>

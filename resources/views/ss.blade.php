@@ -2,7 +2,9 @@
         <div class="row">
         <div class="col-md-7">
                 <h2 class="display-5 font-weight-normal text-center">Stepping Stones Pre-school</h2>
-                <p class="lead font-weight-normal">My second website was for the pre-school my son attends. The manager wanted a site that she could have control over and edit information and photos as and when she needed to. Again I created a CRUD application for the manager to have control of the content of the  website. As a added feature that I wanted to implement I added a testimonials page so parents could leave feedback comments about the pre-school. 
+                <a href="http://www.steppingstones-hardley.co.uk" sty>www.steppingstones-hardley.co.uk</a>
+                <br>
+                <p class="lead font-weight-normal">My second website was created for the pre-school my son attends. The Manager wanted a site that she could have control over and edit the information, photos and currenting staff as and when she needed. I created a CRUD application for the backend management and structure so the Manager has easy control of the content of the  website. As a added feature I wanted to implement I added a testimonials page so parents could leave feedback comments about the pre-school. 
                         <p id="ss" class="lead font-weight-normal"></p>
                         <button onclick="ssFunction()" class="btn btn-primary">Read More</button>   
                                 <br>

@@ -1,7 +1,7 @@
 <div class="container ">
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 laravel borders">
             <i style="font-size:35px;margin:2px; float:right;"class="fab fa-laravel"></i>
-            <h2>Laravel Learnig Projects</h2>
+            <h2>Laravel Learning Projects</h2>
             <br>
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist">
@@ -23,7 +23,7 @@
             <div class="tab-content">
                 <div id="home" class="container tab-pane active"><br>
                 <h3>Blog</h3>
-                <p>My first Laravel project was to create a blog, where individuals could create an account and add posts with photos, categories within a admin panel.</p>
+                <p>My first Laravel project was to create a blog, where individuals could create an account and add posts with photos, categories within a admin panel. The posts would then be displayed on the main page with navigation functionality to view different posts within a category, tags or user. I also played around with the image in the post page and turned it into a transition animation image. You can see this in the video below but I think it would be a bit too hectic in a real project but it was fun to create.</p>
                 <div class="desc" style="font-weight:bold;">A video demonstration of the Blog</div>
                 <div class="row justify-content-center">
                     <a target="_self" href="images/demoblog.mp4">
@@ -54,7 +54,7 @@
                 </div>
                 <div id="menu1" class="container tab-pane fade"><br>
                 <h3>Realtime Chat App</h3>
-                <p>This was a great course to explore all the different components you can use within a laravel project. I used Pusher API to enable messages to be sent to and from users and Broadcast to define how the data is delivered. I used Toastr for the notifications to indicate who's logged in, when a message is sent and recieved. 
+                <p>This was a great course to explore some different components you can use within a laravel project. I used Pusher API to enable messages to be sent and recieved and I used Broadcast to define how the data is delivered. I used Toastr for the notifications to indicate who's logged in, when a message is sent and recieved. 
                     <br>
 
                 </p>

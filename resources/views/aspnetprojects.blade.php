@@ -2,7 +2,7 @@
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 aspnet borders">
             <img src="images/dotnet.png" style="height:45px;float:right;">                                                              
 
-            <h2>ASP.Net Learnig Projects</h2>
+            <h2>ASP.Net Learning Projects</h2>
             <br>
             <p></p>
         

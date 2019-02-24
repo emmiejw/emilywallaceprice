@@ -1,9 +1,9 @@
 <div class="container ">
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 django">
             <i style="font-size:35px;margin:2px; float:right;"class="fab fa-python"></i>
-            <h2>Python Django Learnig Projects</h2>
+            <h2>Python Django Learning Projects</h2>
             <br>
-            <p>After my inital introduction to python I wanted to revisit it and learn about the Django MVC framework. I noted similarities between the two MVC frameworks have but I liked  the Object Orientated Programming (OOP)  of Django and creating 'apps' for the different elements of the site. Unlike Laravel where you have a place for all views, controllers, models and urls to live but with Django all of these are seperated into each app within the main project. The re-built user account for managing your apps is very easy to use and takes out the need to use a separate development database.</p>
+            <p>After my inital introduction to python I wanted to expand my knowledge and learn about the Django MVC framework. I noted similarities between the two MVC frameworks have but I liked  the Object Orientated Programming (OOP) of Django and creating 'apps' for the different elements of the site. Unlike Laravel where you have a directory for all views another for all the controllers etc but with Django within the defined 'app' directory all the views, controller, model and urls are within that directory. The pre-built user account for managing your apps is very easy to use and takes out the need to use a separate development database.</p>
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item">
@@ -21,7 +21,7 @@
             <div class="tab-content">
                 <div id="wc" class="container tab-pane active"><br>
                 <h3>Word Count</h3>
-                <p>My first project was to a word count app. The design was very basic with the idea of inserting sentences within the textarea and the programme counted all the words and also broke it down further to tell you how many times a word is used within that sentence, paragraph.</p>
+                <p>My first project was a word count app. The design was very basic with the idea of inserting sentences/paragraphs into the textarea and the programme counted all the words. You also got a further break down to tell you how many times a word is used within that sentence/paragraph.</p>
                 <div class="desc" style="font-weight:bold;">Screenshots of Word Count</div>
                 <div class="row justify-content-center">
                     <div class="gallery">
@@ -40,8 +40,8 @@
                 </div>
                 <div id="pb" class="container tab-pane fade"><br>
                     <h3>Portfolio & Blog</h3>
-                    <p>This project involved creating a person porfolio page with contact information. Also within the project there was a blog section for posts. This was when I noticed the ease of having the admin panel having easy access to the databases.
-                        The advancage of Django admin you do not need to build any 'create' pages because it is already there for you. If you wanted a new blog post this can be done within the admin section, which saves a lot of time.
+                    <p>This project involved creating a person porfolio page with contact information and a blog section for posts. This was when I noticed the ease of having the admin panel and easy access to the databases.
+                        The advantage of Django admin you do not need to build any 'create' pages because it is already there for you, saving a lot of time when developing the backend.
                     </p>
                 <div class="desc" style="font-weight:bold;">Screenshots of the Portfolio & Blog</div>                    
                     <div class="row justify-content-center">
@@ -71,7 +71,7 @@
                     </div>
                     <div id="ph" class="container tab-pane fade"><br>
                         <h3>Product Hunt</h3>
-                        <p>My first project was to a word count app. The design was very basic with the idea of inserting sentences within the textarea and the programme counted all the words and also broke it down further to tell you how many times a word is used within that sentence, paragraph.</p>
+                        <p>This project was the create a clone of a website Product Hunt, where users can upvote items. With this project unlike the portfolio blog I created the sign up/log in page and built the 'create' view for the adding a product page. This was a more indepth project and learning a different way to code. </p>
                         <div class="desc" style="font-weight:bold;">Screenshots of the Product Hunt clone</div>                        
                         <div class="row justify-content-center">
                             <div class="gallery">

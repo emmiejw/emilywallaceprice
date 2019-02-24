@@ -164,11 +164,11 @@
 </footer>
 <script>
     function hhFunction() {
-        document.getElementById("hh").innerHTML = "I also created an admin area, which only authenticated staff members could access to view individual clients diaries. This helps with continuous assessment as and when it is needed. Within the admin area I also created a separate section for the team to hold clinical trials. I also produced 'How to use guides' for the clients a step by step guide video guide on how to use the app. ";
+        document.getElementById("hh").innerHTML = "To make the website more dynamic and security safe I created an admin area, which only authenticated staff members could access. The team could then view individual clients diaries and clients are only able to view their own diary for confidentiality. This helps with continuous assessment as and when it is needed. Within the admin area I also created a separate section for the team to hold clinical trials records. Due to this being a new method of data collection for the clients I produced 'How to use guide' with desciptions and screenshoots and for those who prefer a video I added a demonstration video using my mobile phone.";
         
     }
     function ssFunction() {
-        document.getElementById("ss").innerHTML = "I added a authorisation functionality so that the Manager could authorise the feedback before it became visible on the website. I used email notifications so the manager receives an email letting her know a new testimonial was awaiting approval. ";
+        document.getElementById("ss").innerHTML = "The Manager wanted to be able to authorise feedback posts before they appeared on the site so I added a authorisation functionality within the admin panel, so posts could be easily read and then a click of a button authorised or deleted a post. I used Laravel email notifications so the Manager receives an email alerting her a new testimonial was awaiting approval. I enjoyed designing the frontend of the website and utilised the logo they already had, which is rainbow footprints with 'Stepping Stones' so I decided to go with a rainbow colourwash to compliment the logo and support the artistic talents within the pre-school.";
     }
 </script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

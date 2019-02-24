@@ -52,19 +52,16 @@
     <div class="container">
         <div class="jumbotron ypd text-center aboutme">
         <h1>About Me</h1>
-          <p>As you can already tell my name is Emily but also known as Emmie. I've lived in Southampton all my life. I've also had Type One Diabetes for 31 years this year (2019).
-            I've got a Medical Detection Dog called Toby, who has been with me for 7 years, who is now retired. Toby has helped me beyond what I imagined possible. When I lost the ability to detect my low blood glucose levels I was partnered with Toby. 
-            In the last few years I've gained the confidence to do public speaking to raise money and awareness for the charity, this was something I would never have had the confidence to do.
+          <p>As you can already tell my name is Emily but I'm also known as Emmie. I've lived in Southampton all my life. I've had Type One Diabetes for 31 years this year (2019).
+            I've got a Medical Detection Dog called Toby, who has been with me for 7 years, who is now retired. Toby has helped me beyond what I imagined possible. When I lost the ability to detect my low blood glucose levels I was partnered with Toby and he gave me back my independence. 
+            In the last few years I've gained the confidence to do public speaking to raise money and awareness for the charity, this was something I would never have had the confidence to do before.
             Towards the end of 2014 I was blessed with the birth of my beautfiul son Lewis, who is my driving force to make my life better for both myself and him.
            <br>
             Prior to learning web development I worked within the care industry but due to health changes with my T1D I was no longer able to continue this line of work.
-            Within a new role in Southampton's Community Nursing Services' admin team I took on roles around educating staff how to use new technologies, such as blackberries and then notebooks to 
-            keep records online with SystemOne. I became a trainer for the SystemOne role out, which was a challenge because not all embraced the new system so needed a bit more convincing that paperless records was the way forward. I also worked very closer with the Service Manager in creating 
-            a spreadsheet that worked out a daily alert system to define each community nursing teams capacity for new patients and the report was then escalated daily to senior management to liase with hospital discharge and whether it was safe to discharge patients home safely with right amount of nursing care.
+            Within a new role in Southampton's Community Nursing Services admin team I took on roles around educating staff how to use new technologies, such as blackberries and then notebooks to keep records online with SystemOne. I became a trainer for the SystemOne role out, which was a challenge because not all the staff embraced the new system so needed a bit more convincing and training that paperless records was the way forward. I also worked very closely with the Service Manager in creating a spreadsheet that worked out a daily alert system to define each community nursing teams capacity for new patients.This report was then escalated daily to senior management to liase with hospital discharge so decisions could be made if it was safe to discharge patients home safely with right amount of nursing care.
             <br>
-            When I became a Mum in 2014 I decided I wanted a change in direction for my career. My influence and inspiration has been in my younger brother Seb, who works in the industry and has a keen fascination into Machine Learning. 
-            It took me a number of months to get my head round how all the different technologies of development worked and as I've progressed I've found my passion lies more in backend development and exploring how data can be minipulated and used. Diabetes technology has also come on leaps and bounds and
-            I'm fascinated by it and now Machine Learning is now helping me have tighter controller over my condition. 
+            When I became a Mum in 2014 I decided I wanted a change in direction for my career. My influence and inspiration has been in my younger brother Seb, who works in the web development industry and has a keen fascination into Machine Learning. 
+            It took me a number of months to get my head round how all the different technologies in development worked and as I've progressed I've found my passion lies more in backend development and exploring how data can be minipulated and used. Diabetes technology has also come on leaps and bounds and I'm fascinated by it and now Machine Learning is now helping me have tighter controller over my condition on a minute by minute basis. 
             <br>
             <br>
            <b>I'm only starting on my web development journey and I'm exciting about the new skills I can learn and the projects I will take on and succeed at! </b> 
