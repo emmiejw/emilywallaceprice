@@ -60,7 +60,7 @@
         border: 5px solid purple;
       }
 
-      .feedbk{
+      .feedbk, .aboutme{
         background-color:whitesmoke;
         border: 7px solid #e400e4;
       }
