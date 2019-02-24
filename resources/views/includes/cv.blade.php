@@ -52,12 +52,12 @@
     <div class="container">
         <div class="jumbotron ypd text-center aboutme">
         <h1>About Me</h1>
-          <p>As you can already tell my name is Emily but also known as Emmie. I've lived in Southampton all my life. I've also been Type One Diabetes for 31 years this year (2019).
-            I've got a retired Medical Detection Dog called Toby who has helped me beyond what I imaged he could, when I lost the ability to detect my low blood glucose levels. 
-            In the last few years I've gained the confidence to do public speaking to raise money and awareness for the charity.This was something I would never have had the confidence to do
-            Then the end of 2014 I was blessed with my beautfiul son Lewis, who is my driving force to make my life better for both myself and him.
+          <p>As you can already tell my name is Emily but also known as Emmie. I've lived in Southampton all my life. I've also had Type One Diabetes for 31 years this year (2019).
+            I've got a Medical Detection Dog called Toby, who has been with me for 7 years, who is now retired. Toby has helped me beyond what I imagined possible. When I lost the ability to detect my low blood glucose levels I was partnered with Toby. 
+            In the last few years I've gained the confidence to do public speaking to raise money and awareness for the charity, this was something I would never have had the confidence to do.
+            Towards the end of 2014 I was blessed with the birth of my beautfiul son Lewis, who is my driving force to make my life better for both myself and him.
            <br>
-            Prior to learning web development I worked within the care industry but due to health changes with the T1D I was no longer to continue this line of work.
+            Prior to learning web development I worked within the care industry but due to health changes with my T1D I was no longer able to continue this line of work.
             Within a new role in Southampton's Community Nursing Services' admin team I took on roles around educating staff how to use new technologies, such as blackberries and then notebooks to 
             keep records online with SystemOne. I became a trainer for the SystemOne role out, which was a challenge because not all embraced the new system so needed a bit more convincing that paperless records was the way forward. I also worked very closer with the Service Manager in creating 
             a spreadsheet that worked out a daily alert system to define each community nursing teams capacity for new patients and the report was then escalated daily to senior management to liase with hospital discharge and whether it was safe to discharge patients home safely with right amount of nursing care.
