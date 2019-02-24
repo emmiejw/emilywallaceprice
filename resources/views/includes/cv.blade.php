@@ -35,7 +35,7 @@
         <address><i class="fas fa-home"></i> 52 Cadland Park, Holbury, Southampton SO45 2PF</address>
         <h5><i style="height:20px; width:20px;" class="fas fa-mobile-alt"></i> <a href="tel:+447722 466017">07722 466017</a>  <i  class="far fa-envelope"></i> <a href="mailto:emilywallacceprice@gmail.com"> emilywallacceprice@gmail.com </a> 
             <br><br>
-            <img style="height:20px; width:20px;" src="https://img.icons8.com/ios/50/000000/globe.png"> <a href="http://www.emilywallaceprice.co.uk">www.emilywallaceprice.co.uk </a><i style="height:20px; width:20px;" class="fab fa-github-square"></i> <a href="https://github.com/emmiejw">https://github.com/emmiejw</a></h5>
+            <img style="height:20px; width:20px;" src="https://img.icons8.com/ios/50/000000/globe.png"> <a href="http://www.emilywallace-price.co.uk">www.emilywallace-price.co.uk </a><i style="height:20px; width:20px;" class="fab fa-github-square"></i> <a href="https://github.com/emmiejw">https://github.com/emmiejw</a></h5>
     </div>
     <br>
     <div class="container">
