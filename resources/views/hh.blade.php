@@ -2,7 +2,8 @@
         <div class="row">
         <div class="col-md-7">
                 <h2 class="display-5 font-weight-normal text-center">Your Partnership Diary</h2>
-                <p class="lead font-weight-normal">My first project was for a charity called Hypo Hounds, who my friend founded. They train pet dogs to alert to their type one diabetic owners of imminent blood sugar changes to prevent a medical emergency. At the time the CEO had to manual compare a clients blood glucose diary with the dogs' alert diary, which became very time consuming. I created a CRUD application for clients to register and store all the relevant information required and then stored in a mysql database. </p>
+                <p class="lead font-weight-normal">My first project was for a charity called Hypo Hounds, who my friend founded. They train pet dogs to alert to their type one diabetic owners of imminent blood sugar changes to prevent a medical emergency. At the time the CEO had to manual compare a clients blood glucose diary with the dogs' alert diary, which became very time consuming. 
+                    I created a CRUD (Create, Read, Update, Delete) application for clients to register and store all the relevant information required and then stored in a mysql database. </p>
                 <p id="hh" class="lead font-weight-normal"></p>
                 <button onclick="hhFunction()" class="btn btn-info">Read More</button>   
                         <br>
@@ -29,7 +30,10 @@
            </div>
            <div class="col-md-5">  
                 <a target="_self" href="images/hh.png">
-                    <img src="images/hh.png" style="height:300px; width:400px;" class="img-responsive link-image js-zoom-image">          
+                    <div class="d-flex justify-content-center">
+                            <img src="images/hh.png" style="height:300px; width:400px;" class="img-responsive link-image js-zoom-image photos">
+                    </div>
+                              
                 </a>    
             </div>
             <div class="gallery">
@@ -58,7 +62,7 @@
                         </a>
                         <div style="font-size:14px;"class="desc">The diary entry is then added to the main dashboard</div>
                     </div>
-            
+                  
             <div class="product-device shadow-sm d-none d-md-block"></div>
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         </div>

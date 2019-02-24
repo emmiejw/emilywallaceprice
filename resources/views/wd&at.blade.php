@@ -22,9 +22,11 @@
                   </p>
              </div>
              <div class="col-md-5">
+                <div class="d-flex justify-content-center">
                   <a target="_self" href="images/IMG_3985.JPG">
                       <img src="images/IMG_3985.JPG" style="height:300px; width:400px;" class="img-responsive link-image js-zoom-image">          
-                  </a>   
+                  </a> 
+                </div>    
               </div>
              
             </div>

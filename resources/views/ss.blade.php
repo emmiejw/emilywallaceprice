@@ -26,9 +26,11 @@
                 </p>
            </div>
            <div class="col-md-5">
-                <a target="_self" href="images/ss.png">
-                    <img src="images/ss.png" style="height:300px; width:400px;" class="img-responsive link-image js-zoom-image">          
-                </a>   
+            <div class="d-flex justify-content-center">
+                    <a target="_self" href="images/ss.png">
+                        <img src="images/ss.png" style="height:300px; width:400px;" class="img-responsive link-image js-zoom-image">          
+                    </a>    
+            </div>   
             </div>
             
             

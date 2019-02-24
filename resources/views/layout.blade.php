@@ -104,6 +104,9 @@
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
+        .photos{
+         
+        }
       }
     </style>
 
@@ -161,7 +164,8 @@
 </footer>
 <script>
     function hhFunction() {
-        document.getElementById("hh").innerHTML = "I also created an admin area, which only authenticated staff members could view individual clients diaries for continuous assessment as and when it is needed. Within the admin area I also created a separate section for the team to hold clinical trials and store relevant information. I also produced 'How to use guides' for the clients and also a step by step guide video guide on how to use the app. ";
+        document.getElementById("hh").innerHTML = "I also created an admin area, which only authenticated staff members could access to view individual clients diaries. This helps with continuous assessment as and when it is needed. Within the admin area I also created a separate section for the team to hold clinical trials. I also produced 'How to use guides' for the clients a step by step guide video guide on how to use the app. ";
+        
     }
     function ssFunction() {
         document.getElementById("ss").innerHTML = "I added a authorisation functionality so that the Manager could authorise the feedback before it became visible on the website. I used email notifications so the manager receives an email letting her know a new testimonial was awaiting approval. ";
