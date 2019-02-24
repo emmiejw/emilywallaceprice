@@ -21,7 +21,7 @@
             <div class="tab-content">
                 <div id="wc" class="container tab-pane active"><br>
                 <h3>Word Count</h3>
-                <p>My first project was a word count app. The design was very basic with the idea of inserting sentences/paragraphs into the textarea and the programme counted all the words. You also got a further break down to tell you how many times a word is used within that sentence/paragraph.</p>
+                <p>My first project was a word count app. The design was very basic with the idea of inserting sentences/paragraphs into the text area and the programme counts all the words. You also get a further break down to tell you how many times a word is used within that sentence/paragraph.</p>
                 <div class="desc" style="font-weight:bold;">Screenshots of Word Count</div>
                 <div class="row justify-content-center">
                     <div class="gallery">
