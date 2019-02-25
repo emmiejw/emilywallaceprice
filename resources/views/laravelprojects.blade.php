@@ -54,7 +54,7 @@
                 </div>
                 <div id="menu1" class="container tab-pane fade"><br>
                 <h3>Realtime Chat App</h3>
-                <p>This was a great course to explore some different components you can use within a laravel project. I used Pusher API to enable messages to be sent and received and I used Broadcast to define how the data is delivered. I used Toastr for the notifications to indicate who's logged in, when a message is sent and received. 
+                <p>This was a great course to explore some different components you can use within a laravel project. I used Pusher API to enable messages to be sent and received and I used Broadcast to define how the data is delivered. I used javascript Toastr for the notifications to indicate who's logged in, when a message is sent and received. 
                     <br>
 
                 </p>

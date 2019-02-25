@@ -2,8 +2,8 @@
         <div class="row">
         <div class="col-md-7">
                 <h2 class="display-5 font-weight-normal text-center">Your Partnership Diary</h2>
-                <p class="lead font-weight-normal">In my early days of learning web development I wanted my first website to be truly useful, which lead me to approaching a charity called Hypo Hounds. The charity train pet dogs to alert their type one diabetic owner or family member of imminent blood sugar changes, to prevent a medical emergency. At the time the CEO, a dear friend of mine, had to manually compare a clients blood glucose diary with the dogs alert diary. The CEO and staff do this to make sure the dog was alerting appropriately and if not they could see all the data in one place and see any patterns to then assist the client get back on track.
-                    With my new found confidence with Laravel I created a CRUD (Create, Read, Update, Delete) application for clients to record all the relevant information required and then stored in a mysql database. </p>
+                <p class="lead font-weight-normal">In my early days of learning web development I wanted my first website to be truly useful, which lead me to approaching a charity called "Hypo Hounds". The charity train pet dogs to alert their type one diabetic owner or family member of imminent blood sugar changes, to prevent a medical emergency. At the time the CEO, a dear friend of mine, had to manually compare a clients blood glucose diary with the dogs alert diary. The CEO and staff do this to make sure the dog was alerting appropriately and if not, they could see all the data in one place and indentify any patterns to then assist the client to get back on track.
+                    With my new found confidence with Laravel I created a CRUD (Create, Read, Update, Delete) application for clients to record all the relevant information required and then stored into a MySql database. </p>
                 <p id="hh" class="lead font-weight-normal"></p>
                 <button onclick="hhFunction()" class="btn btn-info">Read More</button>   
                         <br>
