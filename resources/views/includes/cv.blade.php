@@ -90,7 +90,7 @@
             <br>
            <b>I'm only starting on my web development journey and I'm exciting about the new skills I can learn and the projects I will take on and succeed at! </b> 
           </p>
-        <img src="images/tl.JPG" style="height:150px; width:150px;">
+        <img src="images/tl.JPG" style="height:150px; width:150px; border: 2px solid navy;">
 
         </div>
 
