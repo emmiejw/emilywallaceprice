@@ -16,7 +16,7 @@
             <div class="tab-content">
                 <div id="asp" class="container tab-pane active"><br>
                 <h3>ASP.net E-commerce</h3>
-                <p>I'm currently completing a course with Udemy on ASP.Net MVC, which will involve creating a e=commerce site/shop. </p>
+                <p>I'm currently studying tutorials for Asp.net/.net Core! I've been quite used to Linux' Ubuntu operating system but it will be good to explore Windows again. </p>
                 <br>
                 {{-- <div class="row justify-content-center">
                     <div class="gallery">
