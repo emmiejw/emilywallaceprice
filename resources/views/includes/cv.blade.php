@@ -2,6 +2,21 @@
 
 @section('content')
 <style>
+
+        .emily {
+          position:absolute
+          text-align: center;
+          opacity: 0.8;
+        }
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: aliceblue;
+          opacity: 0.8;
+        }
+
         div.gallery {
           margin: 5px;
           border: 1px solid #ccc;
@@ -31,12 +46,18 @@
         </style>
 <div class="container">
     <div class="jumbotron cv text-center">
-        <h1>Emily Wallace - Price</h1>
-        <address><i class="fas fa-home"></i> 52 Cadland Park, Holbury, Southampton SO45 2PF</address>
-        <h5><i style="height:20px; width:20px;" class="fas fa-mobile-alt"></i> <a href="tel:+447722 466017">07722 466017</a>  <i  class="far fa-envelope"></i> <a href="mailto:emilywallacceprice@gmail.com"> emilywallacceprice@gmail.com </a> 
-            <br><br>
-            <img style="height:20px; width:20px;" src="https://img.icons8.com/ios/50/000000/globe.png"> <a href="https://emilywallace-price.co.uk">emilywallace-price.co.uk </a><i style="height:20px; width:20px;" class="fab fa-github-square"></i> <a href="https://github.com/emmiejw">https://github.com/emmiejw</a></h5>
-    </div>
+            <h1>     Emily Wallace - Price       </h1>
+            <p><i class="fas fa-home"></i> 52 Cadland Park, Holbury, 
+              <br>
+              Southampton SO45 2PF</p>
+            <h5><i style="height:20px; width:20px;" class="fas fa-mobile-alt"></i> <a href="tel:+447722 466017">07722 466017</a> 
+              <br> <i  class="far fa-envelope"></i> <a href="mailto:emilywallacceprice@gmail.com"> emilywallacceprice@gmail.com </a> 
+                <br>
+                <img style="height:20px; width:20px;" src="https://img.icons8.com/ios/50/000000/globe.png"> <a href="https://emilywallace-price.co.uk">emilywallace-price.co.uk </a>
+                <br>
+                <i style="height:20px; width:20px;" class="fab fa-github-square"></i> <a href="https://github.com/emmiejw">https://github.com/emmiejw</a></h5>
+        </div>
+      </div>
     <br>
     <div class="container">
     <div class="jumbotron da text-center">
@@ -52,6 +73,9 @@
     <div class="container">
         <div class="jumbotron ypd text-center aboutme">
         <h1>About Me</h1>
+        <img src="images/lewisandi.jpeg" style="height:150px; width:150px; border: 2px solid blueviolet;">
+        <br>
+        <br>
           <p>As you can already tell my name is Emily but I'm also known as Emmie. I've lived in Southampton all my life. I've had Type One Diabetes for 31 years this year (2019).
             I've got a Medical Detection Dog called Toby, who has been with me for 7 years, who is now retired. Toby has helped me beyond what I imagined possible. When I lost the ability to detect my low blood glucose levels I was partnered with Toby and he gave me back my independence. 
             In the last few years I've gained the confidence to do public speaking to raise money and awareness for the charity, this was something I would never have had the confidence to do before.
@@ -66,7 +90,10 @@
             <br>
            <b>I'm only starting on my web development journey and I'm exciting about the new skills I can learn and the projects I will take on and succeed at! </b> 
           </p>
+        <img src="images/tl.JPG" style="height:150px; width:150px;">
+
         </div>
+
     </div>
 </div>
       
