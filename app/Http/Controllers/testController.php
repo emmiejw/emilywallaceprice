@@ -42,7 +42,7 @@ class testController extends Controller
             'time' => 'required',
             'bg' => 'required',
             'dexcom' => 'required',
-            'bg_photo' => 'required|image',
+            'bg_photo' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:5120',
             'dexcom_photo' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:5120'
         ]);
         $bg_photo = $request->bg_photo;
