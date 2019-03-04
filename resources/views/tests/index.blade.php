@@ -38,7 +38,8 @@
                                                 <td>{{$test->time}}</td>
                                                 <td>{{$test->bg}}</td>
                                                 <td>{{$test->dexcom}}</td>
-                                                <td><img height="200" width="250" src="{{$test->bg_photo}}" alt="" class="bg_photo"></td>
+                                                <td>
+                                                    <img height="200" width="250" src="{{$test->bg_photo}}" alt="" class="bg_photo"></td>
                                                 <td><img height="200" width="250" src="{{$test->dexcom_photo}}" alt="" class="dexcom_photo"></td>                                            
                                                 <td><a href="{{ URL::route('tests.destroy', $test->id) }}" class="btn btn-danger" style="margin: 10px;"> Delete</a></td>
                                             </tr>
