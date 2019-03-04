@@ -20,7 +20,9 @@ Route::get('/cv', function () {
 });
 Route::resource('/', 'FeedbackController');
 Route::resource('/tests', 'testController');
+// Route::get('/tests/pdf','testController@PDF')->name('pdf');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+

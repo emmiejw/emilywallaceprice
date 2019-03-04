@@ -1,21 +1,8 @@
-@extends('layouts.app')
 
-@section('content')
-@if(Session::has('success'))
-
-        <div class="alert alert-success alert-dismissible">
-            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-            <strong>Success!</strong> BG & Dexcom record has been added successfully!
-        </div>
-    @endif
-<div class="container" >
-    <div class="row justify-content-center">
-        <div class="col-md-12">
-            <div class="card">
+        <div class="card">
                 <div class="card-header" >Dexcom & Blood Glucose Comparison</div>                  
                     <div class="card-body">
                             <a href="{{ URL::route('tests.create') }}" class="btn btn-info" style="margin: 10px;"> Add Entry</a>
-                            {{-- <a href="{{ URL::to('/tests/pdf') }}">Export PDF</a> --}}
                             <div class="row" style="margin:20px;">
                                 <table class="table table-responsive table-hover table-striped table-bordered">
                                     <thead>
@@ -27,7 +14,6 @@
                                             <th>Dexcom Reading</th>
                                             <th>BG Photo</th>
                                             <th>Dexcom Photo</th>
-                                            <th>Delete</th>
                                         </tr>
                                         
                                     </thead>
@@ -39,17 +25,8 @@
                                                 <td>{{$test->time}}</td>
                                                 <td>{{number_format($test->bg, 1)}}</td>
                                                 <td>{{number_format($test->dexcom, 1)}}</td>
-                                                <td>
-                                                    <img height="150" width="200" src="{{$test->bg_photo}}" alt="" class="bg_photo"></td>
+                                                <td><img height="150" width="200" src="{{$test->bg_photo}}" alt="" class="bg_photo"></td>
                                                 <td><img height="150" width="200" src="{{$test->dexcom_photo}}" alt="" class="dexcom_photo"></td>                                            
-                                                <td>
-                                                    {!! Form::open(['method'=>'DELETE', 'action'=> ['testController@destroy', $test->id]]) !!}
-                                                    <br>
-                                                    <div class="form-group">
-                                                        {!! Form::submit('Delete', ['class'=>'btn btn-danger ']) !!}
-                                                    </div>
-                                                    {!! Form::close() !!}
-                                                </td>
                                             </tr>
                                         @endforeach
                                         @else
@@ -62,8 +39,8 @@
                                 </table>
                             </div>
                     </div>
-            </div>
-        </div>
-    </div>
-</div>
-@endsection
+            </div>   
+
+
+   
+    
