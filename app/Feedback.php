@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Feedback extends Model
 {
-    public $fillables = ['name', 'website', 'feedback'];
+    public $fillable = ['name', 'website', 'feedback'];
 }

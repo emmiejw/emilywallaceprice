@@ -19,3 +19,8 @@ Route::get('/cv', function () {
     return view('includes.cv');
 });
 Route::resource('/', 'FeedbackController');
+Route::resource('/tests', 'testController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
