@@ -41,12 +41,20 @@
                                                 <td>
                                                     <img height="200" width="250" src="{{$test->bg_photo}}" alt="" class="bg_photo"></td>
                                                 <td><img height="200" width="250" src="{{$test->dexcom_photo}}" alt="" class="dexcom_photo"></td>                                            
-                                                <td><a href="{{ URL::route('tests.destroy', $test->id) }}" class="btn btn-danger" style="margin: 10px;"> Delete</a></td>
+                                                <td>
+                                                    {!! Form::open(['method'=>'DELETE', 'action'=> ['testController@destroy', $test->id]]) !!}
+                                                    <br>
+                                                    <div class="form-group">
+                                                        {!! Form::submit('Delete', ['class'=>'btn btn-danger ']) !!}
+                                                    </div>
+                                                    {!! Form::close() !!}
+                                                </td>
                                             </tr>
                                         @endforeach
                                         @else
                                         <tr>
                                           <th class="text-center display-3" colspan="8" style="color:cornflowerblue"> No Current Entries!</th>
+                        
                                         </tr>     
                                       @endif  
                                     </tbody>
