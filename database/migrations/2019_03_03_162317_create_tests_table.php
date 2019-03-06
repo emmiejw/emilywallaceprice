@@ -17,8 +17,8 @@ class CreateTestsTable extends Migration
             $table->increments('id');
             $table->date('date');
             $table->time('time');
-            $table->decimal('bg')->round('bg', 1);
-            $table->decimal('dexcom')->round('dexcom', 1);
+            $table->decimal('bg', 8,2);
+            $table->decimal('dexcom', 8,2);
             $table->string('bg_photo');
             $table->string('dexcom_photo');
             $table->timestamps();
