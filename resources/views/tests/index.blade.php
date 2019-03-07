@@ -8,6 +8,13 @@
             <strong>Success!</strong> BG & Dexcom record has been added successfully!
         </div>
     @endif
+    @if(Session::has('deleted'))
+
+        <div class="alert alert-danger alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Success!</strong> BG & Dexcom record has been deleted successfully!
+        </div>
+    @endif
     @if(count($errors) > 0)
     <ul class="list-group">
         @foreach ($errors->all() as $error)
@@ -28,7 +35,6 @@
                             <div class="row" style="margin:20px;">
                                 <table class="table table-responsive table-hover table-striped table-bordered">
                                     <thead>
-                                        
                                         <tr>
                                             <th>Date</th>
                                             <th>Time</th>
