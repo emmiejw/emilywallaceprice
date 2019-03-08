@@ -55,8 +55,9 @@
                                                 <td>{{number_format($test->bg, 1)}}</td>
                                                 <td>{{number_format($test->dexcom, 1)}}</td>
                                                 <td>
-                                                    <img height="auto" width="100%" src="{{$test->bg_photo}}" alt="" class="bg_photo"></td>
-                                                <td><img height="auto" width="100%" src="{{$test->dexcom_photo}}" alt="" class="dexcom_photo"></td>                                            
+                                                    <img  width="200" height="300" src="{{$test->bg_photo}}" alt="" class="bg_photo"></td>
+                                                <td>
+                                                    <img  width="200" height="300" src="{{$test->dexcom_photo}}" alt="" class="dexcom_photo"></td>                                            
                                                 <td>
                                                     {!! Form::open(['method'=>'DELETE', 'action'=> ['testController@destroy', $test->id]]) !!}
                                                     <br>
