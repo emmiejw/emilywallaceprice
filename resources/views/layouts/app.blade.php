@@ -18,12 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <style>
-        div.gallery_tests img {
-            width: 100%;
-            height: auto;
-            }
-    </style>
+   
 </head>
 <body>
     <div id="app">

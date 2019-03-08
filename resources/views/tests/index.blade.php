@@ -1,5 +1,9 @@
 @extends('layouts.app')
-
+<style>
+        .bg_photo {
+            transform: rotate(90deg);
+            }
+    </style>
 @section('content')
 @if(Session::has('success'))
 
