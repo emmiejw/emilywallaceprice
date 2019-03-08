@@ -55,8 +55,8 @@
                                                 <td>{{number_format($test->bg, 1)}}</td>
                                                 <td>{{number_format($test->dexcom, 1)}}</td>
                                                 <td>
-                                                    <img height="150" width="200" src="{{$test->bg_photo}}" alt="" class="bg_photo"></td>
-                                                <td><img height="150" width="200" src="{{$test->dexcom_photo}}" alt="" class="dexcom_photo"></td>                                            
+                                                    <img height="auto" width="100%" src="{{$test->bg_photo}}" alt="" class="bg_photo"></td>
+                                                <td><img height="auto" width="100%" src="{{$test->dexcom_photo}}" alt="" class="dexcom_photo"></td>                                            
                                                 <td>
                                                     {!! Form::open(['method'=>'DELETE', 'action'=> ['testController@destroy', $test->id]]) !!}
                                                     <br>
@@ -76,17 +76,10 @@
                                     </tbody>
                                 </table>
                             </div>
+                            <div class="pagination justify-content-center">
+                                {{ $tests->links() }}
+                            </div>
                     </div>
-                    <div class="container">
-                
-                            <ul class="pagination justify-content-center">
-                              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                              <li class="page-item"><a class="page-link" href="#">1</a></li>
-                              <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                              <li class="page-item"><a class="page-link" href="#">3</a></li>
-                              <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                            </ul>
-                          </div>
             </div>
            
         </div>

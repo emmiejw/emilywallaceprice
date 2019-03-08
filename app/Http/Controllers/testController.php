@@ -19,7 +19,7 @@ class testController extends Controller
      */
     public function index()
     {
-        $tests = Test::paginate(5);
+        $tests = Test::paginate(10);
         return view('tests.index', compact('tests', $tests));
     }
 
