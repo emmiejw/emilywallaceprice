@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Test extends Model
 {
-    public $fillable = ['date', 'time', 'bg', 'dexcom', 'bg_photo', 'dexcom_photo'];
+    public $fillable = ['date', 'time', 'bg', 'dexcom', 'bg_photo', 'dexcom_photo', 'comments'];
 }

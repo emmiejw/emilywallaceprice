@@ -42,6 +42,7 @@
                                             <th>Dexcom Reading</th>
                                             <th>BG Photo</th>
                                             <th>Dexcom Photo</th>
+                                            <th>Comments</th>
                                             <th>Delete</th>
                                         </tr>
                                         
@@ -57,7 +58,9 @@
                                                 <td>
                                                     <img  width="200" height="300" src="{{$test->bg_photo}}" alt="" class="bg_photo"></td>
                                                 <td>
-                                                    <img  width="200" height="300" src="{{$test->dexcom_photo}}" alt="" class="dexcom_photo"></td>                                            
+                                                    <img  width="200" height="300" src="{{$test->dexcom_photo}}" alt="" class="dexcom_photo">
+                                                </td>
+                                                <td>{{$test->comments}}</td>                                            
                                                 <td>
                                                     {!! Form::open(['method'=>'DELETE', 'action'=> ['testController@destroy', $test->id]]) !!}
                                                     <br>
@@ -66,6 +69,8 @@
                                                     </div>
                                                     {!! Form::close() !!}
                                                 </td>
+                                                
+
                                             </tr>
                                         @endforeach
                                         @else

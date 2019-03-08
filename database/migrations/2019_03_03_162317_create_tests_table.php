@@ -21,6 +21,7 @@ class CreateTestsTable extends Migration
             $table->decimal('dexcom', 8,2);
             $table->string('bg_photo');
             $table->string('dexcom_photo');
+            $table->string('comments');
             $table->timestamps();
         });
     }

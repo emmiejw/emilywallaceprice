@@ -40,7 +40,11 @@
                             <div class="form-group">
                                 {!! Form::label('dexcom_photo', 'Dexcom Photo:') !!}
                                 {!! Form::file('dexcom_photo', null, ['class'=>'form-control'])!!}
-                            </div>    
+                            </div>  
+                            <div class="form-group">
+                                    {!! Form::label('comments', 'Comments:') !!}
+                                    {!! Form::text('comments', null, ['class'=>'form-control'])!!}
+                                </div>  
                             <div class="form-group ">
                                 {!! Form::submit('Submit', ['class'=>'btn btn-primary']) !!}
                             </div>

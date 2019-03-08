@@ -41,14 +41,6 @@ class testController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($request, [
-            'date' => 'required',
-            'time' => 'required',
-            'bg' => 'required',
-            'dexcom' => 'required',
-            'bg_photo' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:5120',
-            'dexcom_photo' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:5120'
-        ]);
         $bg_photo = $request->bg_photo;
         $bg_photo_new_name = time().$bg_photo->getClientOriginalName();
         $bg_photo->move('bgreadings/', $bg_photo_new_name);
@@ -64,6 +56,7 @@ class testController extends Controller
             'dexcom' => $request->dexcom,
             'bg_photo' => 'bgreadings/' . $bg_photo_new_name,
             'dexcom_photo' => 'dexcomreadings/' . $dexcom_photo_new_name,  
+            'comments' => $request->comments,
         ]);
         Session::flash('success', 'Post created successfully.');
         return redirect('/tests');
