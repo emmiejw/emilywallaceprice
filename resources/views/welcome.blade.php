@@ -28,6 +28,8 @@
     @include('djangoprojects')
 <br>
     @include('aspnetprojects')
+    <br>
+    @include('reactprojects')
 <br>
     @include('feedback') 
 

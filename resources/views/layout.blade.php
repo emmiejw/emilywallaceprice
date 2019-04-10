@@ -60,6 +60,11 @@
         border: 5px solid purple;
       }
 
+      .react{
+        background-color:whitesmoke;
+        border: 5px solid lightblue;
+      }
+
       .feedbk, .aboutme{
         background-color:whitesmoke;
         border: 7px solid #e400e4;

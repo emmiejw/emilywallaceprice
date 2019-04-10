@@ -8,15 +8,15 @@
         
             <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="asp">E-commerce</a>
+                    <a class="nav-link active" data-toggle="tab" href="asp">Contact App</a>
                 </li>
             </ul>
             
             
             <div class="tab-content">
                 <div id="asp" class="container tab-pane active"><br>
-                <h3>ASP.net E-commerce</h3>
-                <p>I'm currently studying tutorials for Asp.net/.net Core! I've been quite used to Linux' Ubuntu operating system but it will be good to explore Windows again. </p>
+                <h3>ASP.net MVC  Contacts App</h3>
+                <p>I'm currently studying tutorials for Asp.net.net! I've been  used to Linux' Ubuntu operating system but it will be good to explore Windows again. This is a simple app building a CRUD system to getting to grips with .net way of coding. </p>
                 <br>
                 {{-- <div class="row justify-content-center">
                     <div class="gallery">
