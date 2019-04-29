@@ -47,9 +47,8 @@
 <div class="container">
     <div class="jumbotron cv text-center">
             <h1>     Emily Wallace - Price       </h1>
-            <p><i class="fas fa-home"></i> 52 Cadland Park, Holbury, 
-              <br>
-              Southampton SO45 2PF</p>
+            <br>
+      
             <h5><i style="height:20px; width:20px;" class="fas fa-mobile-alt"></i> <a href="tel:+447722 466017">07722 466017</a> 
               <br> <i  class="far fa-envelope"></i> <a href="mailto:emilywallacceprice@gmail.com"> emilywallacceprice@gmail.com </a> 
                 <br>
@@ -76,7 +75,9 @@
         <img src="images/lewisandi.jpeg" style="height:150px; width:150px; border: 2px solid blueviolet;">
         <br>
         <br>
-          <p>As you can already tell my name is Emily but I'm also known as Emmie. I've lived in Southampton all my life. I've had Type One Diabetes for 31 years this year (2019).
+          <p>As you can already tell my name is Emily but I'm also known as Emmie. I've lived in Southampton all my life. 
+            <br>
+            I have  had Type One Diabetes for 31 years this year (2019).
             I've got a Medical Detection Dog called Toby, who has been with me for 7 years, who is now retired. Toby has helped me beyond what I imagined possible. When I lost the ability to detect my low blood glucose levels I was partnered with Toby and he gave me back my independence. 
             In the last few years I've gained the confidence to do public speaking to raise money and awareness for the charity, this was something I would never have had the confidence to do before.
             Towards the end of 2014 I was blessed with the birth of my beautiful son Lewis, who is my driving force to make my life better for both myself and him.
