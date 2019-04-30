@@ -44,7 +44,7 @@ class FeedbackController extends Controller
 
         Session::flash('success', 'You have successfully posted feedback to Emily Wallace - Price');
 
-        return redirect()->back();
+        return view('welcome')->with('feedbacks', Feedback::all());
     }
 
     /**
