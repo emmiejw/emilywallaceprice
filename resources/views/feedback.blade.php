@@ -15,7 +15,7 @@
                 </blockquote>
         @endforeach
         <br>
-    <h1 class="text-center" style="color:blueviolet; font-family: 'Caveat Brush', cursive;">I would love to hear what you think!</h1>
+    {{-- <h1 class="text-center" style="color:blueviolet; font-family: 'Caveat Brush', cursive;">I would love to hear what you think!</h1>
     <br>
     {!! Form::open(['method'=>'POST', 'action' => 'FeedbackController@store'])!!}
               <div class="form-group">
@@ -34,7 +34,7 @@
                   {!! Form::submit('Submit Feedback', ['class'=>'btn btn-primary']) !!}
               </div>
          {!! Form::close() !!}
-    </div>
+    </div> --}}
     
         
     </div>  
