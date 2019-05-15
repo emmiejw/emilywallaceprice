@@ -5,7 +5,9 @@
 <div class="container ypd">
         <div class="panel-group">
           <div class="panel panel-danger">
-            <div class="panel-heading">Feedback</div>
+              <br>
+            <div class="panel-heading  text-center"><h1>Feedback</h1></div>
+            <br>
             <div class="panel-body">
                     @if(Session::has('updated'))
                     <div class="alert alert-warning alert-dismissible session">
@@ -26,6 +28,7 @@
                         <th>Name</th>
                         <th>Website</th>
                         <th>Feedback</th>
+                        <th>Action</th>
                         <th>Delete</th>
                     </thead>
                 </tr>
@@ -44,7 +47,7 @@
                                 <input type="hidden" name="is_active" value="0">
         
                                         <div class="form-group">
-                                            {!! Form::submit('Un-approve', ['class'=>'btn btn-success']) !!}
+                                            {!! Form::submit('Hide', ['class'=>'btn btn-success']) !!}
                                         </div>
                                 {!! Form::close() !!}
                         
@@ -55,7 +58,7 @@
                                 <input type="hidden" name="is_active" value="1">
 
                                 <div class="form-group">
-                                    {!! Form::submit('Approve', ['class'=>'btn btn-info']) !!}
+                                    {!! Form::submit('Show', ['class'=>'btn btn-info']) !!}
                                 </div>
                                 {!! Form::close() !!}
         
@@ -75,8 +78,13 @@
             </div>
             
             </div>
-            
+            <center>
+                <button><a href="/feedback">Return to Feedback Page</a></button>
+                <br><br>
+                <button><a href="/home">Home</a></button>
+            </center>
             </div>
+            <br>
           </div>
         </div>
     

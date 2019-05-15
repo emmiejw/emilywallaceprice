@@ -13,9 +13,21 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    <br>
-                    <a href="/feedback/1/edit">Review Feedback</a>
+                    <center>
+                            <button><a href="/feedback/1/edit">Feedback Management</a></button>
+                            <br><br>
+                            <button>
+                                    <div>
+                                            <a  href="{{ route('logout') }}"
+                                               onclick="event.preventDefault();
+                                                             document.getElementById('logout-form').submit();">
+                                                {{ __('Logout') }}
+                                            </a>
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                    @csrf
+                                                </form>
+                            </button>
+                    </center>
                 </div>
             </div>
         </div>
