@@ -1,13 +1,7 @@
 @extends('layout')
 
 @section('content')
-@if(Session::has('success'))
 
-<div class="alert alert-success alert-dismissible session">
-    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-    <strong>Success!</strong> Your feedback has been added successfully!
-</div>
-@endif  
 <div class="position-relative overflow-hidden text-center bg-light title">
   <div class="  mx-auto my-5">
     <h1 class="display-4 font-weight-normal">Developing a New Future</h1>
@@ -31,6 +25,6 @@
     <br>
     @include('reactprojects')
 <br>
-    @include('feedback') 
+    {{-- @include('feedback')  --}}
 
 @endsection

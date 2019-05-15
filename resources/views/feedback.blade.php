@@ -4,7 +4,7 @@
             <h2>Feedback</h2>
         
     <br>
-        @foreach ($feedbacks as $feedback)
+        {{-- @foreach ($feedbacks as $feedback)
             <h3><a href="{{$feedback->website}}">{{$feedback->website}}</a></h3>
             
                 <blockquote>    
@@ -13,7 +13,7 @@
                     <footer> <b style="">-  {{$feedback->name}} </b></footer>
                     <p>Posted on: {{$feedback->created_at}}</p>
                 </blockquote>
-        @endforeach
+        @endforeach --}}
         <br>
     <h1 class="text-center" style="color:blueviolet; font-family: 'Caveat Brush', cursive;">I would love to hear what you think!</h1>
     <br>

@@ -15,7 +15,8 @@ class FeedbackController extends Controller
      */
     public function index()
     {
-        return view('welcome')->with('feedbacks', Feedback::all());
+        $feedbacks = Feedback::where('is_active', 1)->orderBy('id', 'DESC')->paginate(10);
+        return view('feedback.index', compact('feedbacks', $feedbacks));
     }
 
     /**
@@ -25,7 +26,7 @@ class FeedbackController extends Controller
      */
     public function create()
     {
-        return view('welcome');        
+        return view('feedback.index');        
     }
 
     /**
@@ -36,15 +37,11 @@ class FeedbackController extends Controller
      */
     public function store(Request $request)
     {
-        $feedback = new Feedback;
-        $feedback->name = $request->name;
-        $feedback->website = $request->website;
-        $feedback->feedback = $request->feedback;
-        $feedback->save();
+        Feedback::create($request->all());
 
         Session::flash('success', 'You have successfully posted feedback to Emily Wallace - Price');
 
-        return view('welcome')->with('feedbacks', Feedback::all());
+        return view('feedback.index')->with('feedbacks', Feedback::all());
     }
 
     /**
@@ -66,7 +63,9 @@ class FeedbackController extends Controller
      */
     public function edit($id)
     {
-        //
+        $feedbacks = Feedback::orderBy('id', 'DESC');
+        return view('feedback.edit')->with('feedbacks', Feedback::all());
+       
     }
 
     /**
@@ -78,7 +77,9 @@ class FeedbackController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        Feedback::findOrFail($id)->update($request->all());
+        Session::flash('updated', 'Feedback successfully Approved.');
+        return redirect()->back();
     }
 
     /**
@@ -89,6 +90,9 @@ class FeedbackController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $feedback = Feedback::findOrFail($id);
+        $feedback->delete();
+        Session::flash('deleted');
+        return redirect()->back();
     }
 }

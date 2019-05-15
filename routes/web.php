@@ -18,7 +18,7 @@ Route::get('/', function () {
 Route::get('/cv', function () {
     return view('includes.cv');
 });
-Route::resource('/', 'FeedbackController');
+Route::resource('/feedback', 'FeedbackController');
 Route::resource('/tests', 'testController');
 // Route::get('/tests/pdf','testController@PDF')->name('pdf');
 

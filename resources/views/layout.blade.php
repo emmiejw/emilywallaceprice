@@ -69,6 +69,10 @@
         background-color:whitesmoke;
         border: 7px solid #e400e4;
       }
+      .feedbk1{
+        background-color:whitesmoke;
+        border: 7px solid mediumslateblue;
+      }
 
       .writing{
         font-family: 'Bad Script', cursive;
@@ -132,6 +136,9 @@
                 <li class="nav-item">
                 <a class="nav-link" href="/cv"><img src="https://img.icons8.com/nolan/64/000000/documents.png"> My CV</i></a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/feedback"><img src="https://img.icons8.com/nolan/64/000000/speech-bubble.png"> Customer Feedback</i></a>
+                  </li>
                 <li class="nav-item">
                 <a class="nav-link" href="mailto:emilywallaceprice@gmail.com"><img src="https://img.icons8.com/nolan/64/000000/email.png"> Email me</a>
                 </li>
