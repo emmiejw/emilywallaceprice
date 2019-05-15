@@ -4,10 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Session;
+use App\User;
 use App\Feedback;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class FeedbackController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth')->only('edit', 'destroy');
+    }
     /**
      * Display a listing of the resource.
      *
