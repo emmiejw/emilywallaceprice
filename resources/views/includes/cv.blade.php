@@ -47,8 +47,9 @@
 <div class="container">
     <div class="jumbotron cv text-center">
             <h1>     Emily Wallace - Price       </h1>
-            <br>
-      
+            <span>
+                <img src="images/profile.svg" height="150px;">
+            </span> <br><br>
             <h5><i style="height:20px; width:20px;" class="fas fa-mobile-alt"></i> <a href="tel:+447722 466017">07722 466017</a> 
               <br> <i  class="far fa-envelope"></i> <a href="mailto:emilywallacceprice@gmail.com"> emilywallacceprice@gmail.com </a> 
                 <br>

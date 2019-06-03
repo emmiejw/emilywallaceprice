@@ -98,6 +98,11 @@
         padding: 15px;
         text-align: center;
         }
+
+        .contact{
+          background-image: url('images/undraw_contact_us_15o2.svg');
+          background-size: cover;
+        }
     
         
       .bd-placeholder-img {
@@ -157,6 +162,7 @@
 <footer>
     <div class="jumbotron footer">
         <div class="container text-center">
+          
             <h4> <i class="far fa-copyright"></i> Emily Wallace - Price 2019</h4>
                 Icons by: 
                 <br>

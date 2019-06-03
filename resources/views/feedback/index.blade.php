@@ -18,11 +18,17 @@
                     </p>
             </center>
         </div>
+        <br>
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 feedbk borders">
-        
+                <h1 class="text-center" style="color:blueviolet;">Previous Client Testimonials!
+                <br><br>
+                <span>
+                        <img  src="images/undraw_wall_post_83ul.svg" height="150px;" >
+                    </span>
+                </h1>
     <br>
         @foreach ($feedbacks as $feedback)
-            <h3><a href="{{$feedback->website}}">{{$feedback->website}}</a></h3>
+            <h4><a href="{{$feedback->website}}">{{$feedback->website}}</a></h4>
             
                 <blockquote>    
                              
@@ -31,9 +37,9 @@
                     <p>Posted on: {{$feedback->created_at}}</p>
                 </blockquote>
         @endforeach
-<br>
-<h1 class="text-center" style="color:blueviolet; font-family: 'Caveat Brush', cursive;">I would love to hear what you think!</h1>
-<br>
+
+
+<hr>
 {!! Form::open(['method'=>'POST', 'action' => 'FeedbackController@store'])!!}
           <div class="form-group">
               {!! Form::label('name', 'Your name or Company Name:') !!}
