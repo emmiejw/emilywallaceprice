@@ -14,6 +14,15 @@
   <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
 </div>
 <br>
+<div class="position-relative overflow-hidden text-center bg-light da">
+    <div class="  mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">My live Websites and Projects</h1>
+         <p class="lead font-weight-normal" style="padding:10px;">Welcome to my portfolio. Here you will find details of my live websites I've created and the projects I have completed. Please use the navbar to view my github repository, CV and feedback from clients.</p>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+  <br>
     @include('hh')
 <br>
     @include('ss')
