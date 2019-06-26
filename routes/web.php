@@ -18,6 +18,11 @@ Route::get('/', function () {
 Route::get('/cv', function () {
     return view('includes.cv');
 });
+
+Route::get('/cvform', function () {
+    return view('includes.cvform');
+});
+
 Route::resource('/feedback', 'FeedbackController');
 Route::resource('/tests', 'testController');
 // Route::get('/tests/pdf','testController@PDF')->name('pdf');

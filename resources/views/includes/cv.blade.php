@@ -73,7 +73,7 @@
     <div class="container">
         <div class="jumbotron ypd text-center aboutme">
         <h1>About Me</h1>
-        <img src="images/lewisandi.jpeg" style="height:150px; width:150px; border: 2px solid blueviolet;">
+        <img src="images/me.jpg" style="height:150px; width:150px; border: 2px solid blueviolet;">
         <br>
         <br>
           <p>As you can already tell my name is Emily but I'm also known as Emmie. I've lived in Southampton all my life. 
@@ -105,7 +105,7 @@
         <h1>Course Completion Certificates</h1>
         <br>
         <div class="row">
-                <div class="col-md-4">
+                {{-- <div class="col-md-4">
                   <h4>Programming fundimentals</h4>
                   <div class="thumbnail">
                     <a href="images/prog.png">
@@ -115,7 +115,7 @@
                         <p>My first course learning programming fundimentals</p>
                     </div>
                   </div>
-                </div>
+                </div> --}}
                 <div class="col-md-4">
                   <h4>Object Orientated programming</h4>
                     <div class="thumbnail">
