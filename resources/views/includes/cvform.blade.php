@@ -61,6 +61,7 @@
             <br>
                 @include('includes/admin')
             <br>
+        
                 @include('includes/hca')
             <br>
             @include('includes/voluntary')
@@ -69,23 +70,19 @@
         </section>
 <hr>
 <div class="row">
-        <h2>Education</h2>
-        <section>
+    <section>
+            <h2>Education</h2>
                @include('includes/udemy')
               <br>
-        <h2>Apprenticeship in Business and Administration Advanced Diploma.</h2>
-        @include('includes/diploma')
-
-    {{-- <h2>Totton College</h2>
-            @include('includes/college')
-        
-            @include('includes/school') --}}
-
-        </section>
+    </section>
+    <section>
+            <h2 >Apprenticeship in Business and Administration Advanced Diploma.</h2>
+            <br>
+            @include('includes/diploma')
+    </section>
     </div>
     <hr>
     @include('includes/personal')
-
 
     
 </body>

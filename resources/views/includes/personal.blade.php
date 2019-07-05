@@ -1,25 +1,11 @@
 <div class="row">
-        <h2>Personal Statement</h2>
+        <h2 style="margin-left:20px;">Personal Statement</h2>
         <section>
-            <ul>
-                <li>I consider myself a quietly confident individual with good listening skills</li>
-                <li>I'm currently the administrator for my sons' preschool Parent Governors meetings <br>
-                    <ul>
-                        <li>Taking the minutes of the meeting</li>
-                        <li>Provide ideas for fundraising activities for the preschool</li>
-                        <li>Help organise meet ups for the children and parents during the holidays</li>
-                    </ul>
-                </li>
-                <li>I've previously been a charity speaker for the charity Medical Detection Dogs. They are a charity close to my heart who trained a labrador called Toby for me who detects when my blood sugar levels drop with my type 1 diabetes. 
-                    <ul>
-                        <li>Hold stalls at local fayres and county shows</li>
-                        <li>Provide talks to small retirement groups</li>
-                        <li>Given presentations to large groups of people in a conference setting</li>
-                    </ul>
-                </li>
-                <li>I've recently started getting involved in the web development meet up scene and I have given a talk to the Soton Women in Web group about diabetes technology, which I am very passionate about</li>
-                <li>The last year I have been very privileged to now have access to medical technology, which has been life changing and I'm fascinated about the machine learning behind it. </li>
-            </ul>
+                I am a calm problem solver who is used to challenges. I embrace new technologies, which has had a huge positive impact on my personal life. The last year I have been very privileged to now have access to medical technology, which has been life changing and I'm fascinated about the machine learning algorithms behind my intuitive medical device.
+                <br> 
+                I've recently started getting involved in the web development meet up scene. I have given a talk to the Soton Women in Web group about diabetes technology, which I am very passionate about. Attending the group has been a real confidence boost in my abilities in preparation of applying for my first job in the industry. I am very proud to have achieved what I have in web development so far along side bringing up my now four year old son. You are never too old to learn something new!
+                <br>
+                I am an enthusiastic learner who believes that even though it can take time to achieve a goal , the journey is an invaluable experience in understanding and discovering new technologies and styles. I know there is so much more to learn and what was once a daunting prospect I'm now eager to learn more a diversify my skills and knowledge. 
         </section>
     </div>
 </div>
