@@ -36,12 +36,42 @@
     <div class="col-12 text-center" >
         <h1 class="text-center">Emily Wallace - Price </h1> 
             <br>
-                <h5><i style="height:20px; width:20px;" class="fas fa-mobile-alt"></i> <a href="tel:+447722 466017">07722 466017</a> 
-              <br> <i  class="far fa-envelope"></i> <a href="mailto:emilywallacceprice@gmail.com"> emilyprice84@outlook.com </a> 
-                <br>
-                <img style="height:20px; width:20px;" src="https://img.icons8.com/ios/50/000000/globe.png"> <a href="https://emilywallace-price.co.uk">emilywallace-price.co.uk </a>
-                <br>
-                <i style="height:20px; width:20px;" class="fab fa-github-square"></i> <a href="https://github.com/emmiejw">https://github.com/emmiejw</a></h5>
+            <center>
+                    <table>
+                            <tr>
+                                <td>
+                                    <i style="height:20px; width:20px;" class="fas fa-mobile-alt"></i>
+                                </td>
+                                    <td style="padding-left:15px;">
+                                            <a href="tel:+447722 466017">07722 466017</a> 
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                        <i  class="far fa-envelope"></i>
+                                </td>
+                                <td style="padding-left:15px;">
+                                        <a href="mailto:emilywallacceprice@gmail.com"> emilyprice84@outlook.com </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img style="height:20px; width:20px;" src="https://img.icons8.com/ios/50/000000/globe.png">
+                                </td>
+                                <td style="padding-left:15px;">
+                                    <a href="https://emilywallace-price.co.uk">emilywallace-price.co.uk </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                        <i style="height:20px; width:20px;" class="fab fa-github-square"></i> 
+                                </td>
+                                <td style="padding-left:15px;">
+                                    <a href="https://github.com/emmiejw">https://github.com/emmiejw</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </center>
     </div>
 </div>
 <hr>
@@ -56,14 +86,14 @@
             <br>
         <br>
                 @include('includes/ss')
-            <br> 
+            <br> <br>
                 @include('includes/hh')
-            <br>
+            <br><br>
                 @include('includes/admin')
-            <br>
+            <br> <br>
         
                 @include('includes/hca')
-            <br>
+            <br><br> 
             @include('includes/voluntary')
             <br>
         </section>
@@ -76,7 +106,6 @@
     </section>
     <section>
             <h2 >Apprenticeship in Business and Administration Advanced Diploma.</h2>
-            <br>
             @include('includes/diploma')
     </section>
     </div>
