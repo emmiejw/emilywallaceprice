@@ -63,11 +63,7 @@
       <div class="jumbotron da text-center">
           <h1>My CV</h1>
           <br>
-            <h5>
-                   <a href="/cvform">
-                  <i class="far fa-file" style="font-size:5em"></i>
-                  </a>
-                </h5>
+          <embed src="images/Emily Wallace - Price CV.pdf" height="500px" width="100%">  
              </div>
         </div>
     </div>

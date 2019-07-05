@@ -1,5 +1,5 @@
-<div class="row">
-        <h2 style="margin-left:20px;">Personal Statement</h2>
+<div class="row"style="margin-left:20px;">
+        <h2 >Personal Statement</h2>
         <section>
                 I am a calm problem solver who is used to challenges. I embrace new technologies, which has had a huge positive impact on my personal life. The last year I have been very privileged to now have access to medical technology, which has been life changing and I'm fascinated about the machine learning algorithms behind my intuitive medical device.
                 <br> 

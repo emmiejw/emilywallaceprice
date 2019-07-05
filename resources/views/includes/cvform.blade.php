@@ -45,9 +45,9 @@
     </div>
 </div>
 <hr>
-@include('includes/profSum')
-<hr>
 @include('includes/coreSkills')
+<hr>
+@include('includes/profSum')
 <hr>
 <div class="row">
     <h2>Work History</h2> 
@@ -65,7 +65,6 @@
                 @include('includes/hca')
             <br>
             @include('includes/voluntary')
-            <br>
             <br>
         </section>
 <hr>
