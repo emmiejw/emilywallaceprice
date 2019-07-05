@@ -1,4 +1,4 @@
-<table class="table table-striped table-bordered" style="margin:10px;">
+<table class="table table-striped table-bordered">
         <tr>
             <th>NVQ 3 in Business and administration</th>
             <th>Key skills </th>
@@ -26,11 +26,12 @@
                 <li>English</li>
             </td>
             <td>
-                    <li> Principles of personal responsibility and how to develop and evaluate own preformation at work</li>
+                    <li> Principles of personal responsibility and how to develop and evaluate own performance at work</li>
                     <li> Principles of working with and supervising other in a business environment</li>
                     <li> Principles of managing and information and producing documents in a business environment </li>
                      <li>Principles of providing and maintaining administrative services</li>
                      <li>Principles of project management</li>
             </td>
         </tr>
+    </tbody>
     </table>

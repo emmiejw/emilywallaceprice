@@ -54,7 +54,7 @@
         <section>
                 @include('includes/wdat')
             <br>
-        
+        <br>
                 @include('includes/ss')
             <br> 
                 @include('includes/hh')
@@ -62,6 +62,9 @@
                 @include('includes/admin')
             <br>
                 @include('includes/hca')
+            <br>
+            @include('includes/voluntary')
+            <br>
             <br>
         </section>
 <hr>
@@ -73,10 +76,10 @@
         <h2>Apprenticeship in Business and Administration Advanced Diploma.</h2>
         @include('includes/diploma')
 
-    <h2>Totton College</h2>
+    {{-- <h2>Totton College</h2>
             @include('includes/college')
         
-            @include('includes/school')
+            @include('includes/school') --}}
 
         </section>
     </div>
