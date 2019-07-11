@@ -82,18 +82,16 @@
 <div class="row">
     <h2>Work History</h2> 
         <section>
-                @include('includes/wdat')
-            <br>
-        <br>
-                @include('includes/ss')
-            <br> <br>
-                @include('includes/hh')
-            <br><br>
-                @include('includes/admin')
-            <br> <br>
-        
-                @include('includes/hca')
-            <br><br> 
+            @include('includes/wdat')
+                <br><br>
+                    @include('includes/ss')
+                        <br> <br>
+                            @include('includes/hh')
+                            <br><br>
+                            @include('includes/admin')
+                        <br> <br>
+                    @include('includes/hca')
+                <br><br> 
             @include('includes/voluntary')
             <br>
         </section>
@@ -104,14 +102,18 @@
                @include('includes/udemy')
               <br>
     </section>
+
     <section>
             <h2 >Apprenticeship in Business and Administration Advanced Diploma.</h2>
             @include('includes/diploma')
     </section>
     </div>
+
     <hr>
+
     @include('includes/personal')
 
+    <hr>
     
 </body>
 </html>

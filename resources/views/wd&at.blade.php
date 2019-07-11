@@ -61,15 +61,5 @@
                 </a>
                 <div style="font-size:14px;"class="desc">Contact info and footer</div>
             </div>      
-    </div>            
-    {{-- <div class="gallery">
-      <a target="_self" href="images/record9.pdf">
-          <embed src="images/record9.pdf" width="175" height="200">
-      </a>
-      <div style="font-size:14px;"class="desc">Testing Form with html and bootstrap grid system </div>
-  </div>     --}}
-            </div>
-              </div>            
-              <div class="product-device shadow-sm d-none d-md-block"></div>
-              <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-          </div>
+    </div>           
+</div>
