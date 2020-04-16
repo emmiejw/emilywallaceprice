@@ -147,8 +147,7 @@
                   <a class="nav-link" href="/feedback"><img src="https://img.icons8.com/nolan/64/comments.png"/> Customer Feedback</a>
                   </li>
                 <li class="nav-item">
-                <a class="nav-link" href="mailto:emilyprice84@outlook.com"><img src="https://img.icons8
-                .com/nolan/64/send.png"/>Email me</a>
+                <a class="nav-link" href="mailto:emilyprice84@outlook.com"><img src="https://img.icons8.com/nolan/64/filled-message.png"/>Email me</a>
                 </li>
             </ul>
             </div>
