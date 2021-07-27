@@ -181,15 +181,6 @@
     </div>     
 </footer>
 <script>
-  $('.expand-button').on('click', function(){
-  $('.special-text').toggleClass('-expanded');
-  
-  if ($('.special-text').hasClass('-expanded')) {
-    $('.expand-button').html('Collapse Content');
-  } else {
-    $('.expand-button').html('Continue Reading');
-  }
-});
     function hhFunction() {
         document.getElementById("hh").innerHTML = "To make the website more dynamic and secure  I created an admin area, which only authenticated staff members could access. The team could then view individual client diaries (clients are only able to view their own diary for confidentiality). This helps with continuous assessment as and when it is needed. Within the admin area I also created a separate section for the team to hold clinical trial records. Due to this being a new method of data collection for the clients I produced 'How to use guide' with descriptions and screenshots and for those who prefer a video I added a demonstration video using my mobile phone.";        
     }
@@ -202,8 +193,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
-<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
 </script> 
 </body>     
 </html>

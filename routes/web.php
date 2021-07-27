@@ -23,9 +23,9 @@ Route::get('/cvform', function () {
     return view('includes.cvform');
 });
 
-Route::resource('/feedback', 'FeedbackController');
-Route::resource('/tests', 'testController');
-// Route::get('/tests/pdf','testController@PDF')->name('pdf');
+// Route::resource('/feedback', 'FeedbackController');
+// Route::resource('/tests', 'testController');
+// // Route::get('/tests/pdf','testController@PDF')->name('pdf');
 
 Auth::routes();
 
