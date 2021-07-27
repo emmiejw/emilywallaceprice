@@ -34,18 +34,18 @@
 
       .ypd{
             background-color:whitesmoke;
-            border:7px solid #c5d6ff; 
+            border:7px solid #c5d6ff;
       }
-     
+
       .ss , .cv{
             background-color:whitesmoke;
-            border: 5px solid #a76cff;  
+            border: 5px solid #a76cff;
       }
       .da{
         background-color:whitesmoke;
-        border: 5px solid blue;   
+        border: 5px solid blue;
       }
-      
+
       .laravel{
         background-color:whitesmoke;
         border: 5px solid #5499C7;
@@ -76,7 +76,7 @@
 
       .writing{
         font-family: 'Bad Script', cursive;
-        
+
       }
       div.gallery {
         margin: 5px;
@@ -103,8 +103,8 @@
           background-image: url('images/undraw_contact_us_15o2.svg');
           background-size: cover;
         }
-    
-        
+
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -119,33 +119,35 @@
           font-size: 3.5rem;
         }
         .photos{
-         
+
         }
       }
     </style>
 
   </head>
-  <body>  
+  <body>
     <div class="container">
         <nav class="navbar navbar-dark bg-dark justify-content-center fixed-top">
-            <a class="navbar-brand" href="/" style="font-family: 'Roboto Condensed', sans-serif;"><img src="https://img.icons8.com/nolan/64/000000/source-code.png" style="height:40px;"> Emily Wallace - Price</a>
+            <a class="navbar-brand" href="/" style="font-family: 'Roboto Condensed', sans-serif;"><img
+                    src="https://img.icons8.com/nolan/64/source-code.png" style="height: 50px;"/> Emily Wallace -
+                                                                                                   Price</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-        
+
             <div class="collapse navbar-collapse" id="navbarsExample09">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                <a class="nav-link" href="https://github.com/emmiejw"><img src="https://img.icons8.com/nolan/64/000000/github.png"> My Github<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="https://github.com/emmiejw"><img src="https://img.icons8.com/nolan/64/github.png"/>My Github<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="/cv"><img src="https://img.icons8.com/nolan/64/000000/documents.png"> My CV</i></a>
+                <a class="nav-link" href="/cv"><img src="https://img.icons8.com/nolan/64/resume.png"/> My CV</a>
                 </li>
+                {{-- <li class="nav-item">
+                  <a class="nav-link" href="/feedback"><img src="https://img.icons8.com/nolan/64/comments.png"/> Customer Feedback</a>
+                  </li> --}}
                 <li class="nav-item">
-                  <a class="nav-link" href="/feedback"><img src="https://img.icons8.com/nolan/64/000000/speech-bubble.png"> Customer Feedback</i></a>
-                  </li>
-                <li class="nav-item">
-                <a class="nav-link" href="mailto:emilywallaceprice@gmail.com"><img src="https://img.icons8.com/nolan/64/000000/email.png"> Email me</a>
+                <a class="nav-link" href="mailto:emilyprice84@outlook.com"><img src="https://img.icons8.com/nolan/64/filled-message.png"/>Email me</a>
                 </li>
             </ul>
             </div>
@@ -156,33 +158,42 @@
         <br>
         <main class="py-4">
                 @yield('content')
-            </main>  
-       
-                  
+            </main>
+
+
 <footer>
     <div class="jumbotron footer">
         <div class="container text-center">
-          
-            <h4> <i class="far fa-copyright"></i> Emily Wallace - Price 2019</h4>
-                Icons by: 
+
+        <h4> <i class="far fa-copyright"></i> Emily Wallace - Price {{  date('Y')}}</h4>
+                Icons by:
                 <br>
                 <a href="https://icons8.com/icon/43999/email">Email icon by Icons8</a>
                 <a href="https://icons8.com/icon/52539/github">GitHub icon by Icons8</a>
                 <a href="https://icons8.com/icon/43615/documents">Documents icon by Icons8</a>
                 <a href="https://icons8.com/icon/19896/get-quote">Get Quote icon by Icons8</a>
                 <a href="https://pngtree.com/free-icons/net">free net icons</a>
-                <a href="https://pngtree.com/free-icons/bootstrap">free bootstrap icons</a> 
+                <a href="https://pngtree.com/free-icons/bootstrap">free bootstrap icons</a>
                 <a href="https://pngtree.com/">Graphics from pngtree.com</a>
         </div>
         <br>
         <p class="float-right">
             <a href="#">Back to top</a>
         </p>
-    </div>     
+    </div>
 </footer>
 <script>
+  $('.expand-button').on('click', function(){
+  $('.special-text').toggleClass('-expanded');
+
+  if ($('.special-text').hasClass('-expanded')) {
+    $('.expand-button').html('Collapse Content');
+  } else {
+    $('.expand-button').html('Continue Reading');
+  }
+});
     function hhFunction() {
-        document.getElementById("hh").innerHTML = "To make the website more dynamic and secure  I created an admin area, which only authenticated staff members could access. The team could then view individual client diaries (clients are only able to view their own diary for confidentiality). This helps with continuous assessment as and when it is needed. Within the admin area I also created a separate section for the team to hold clinical trial records. Due to this being a new method of data collection for the clients I produced 'How to use guide' with descriptions and screenshots and for those who prefer a video I added a demonstration video using my mobile phone.";        
+        document.getElementById("hh").innerHTML = "To make the website more dynamic and secure  I created an admin area, which only authenticated staff members could access. The team could then view individual client diaries (clients are only able to view their own diary for confidentiality). This helps with continuous assessment as and when it is needed. Within the admin area I also created a separate section for the team to hold clinical trial records. Due to this being a new method of data collection for the clients I produced 'How to use guide' with descriptions and screenshots and for those who prefer a video I added a demonstration video using my mobile phone.";
     }
     function ssFunction() {
         document.getElementById("ss").innerHTML = "The Manager wanted to be able to authorise feedback posts before they appeared on the site, so I added an authorisation functionality within the admin panel, therefore posts could be easily read and then a click of a button authorised or deleted. I used Laravel email notifications so the Manager receives an email alerting her of any new testimonial awaiting approval. I enjoyed designing the frontend of the website. I utilised the logo they already had, which is rainbow footprints with 'Stepping Stones' and  I decided to go with a rainbow colour wash to compliment the logo and support the artistic talents within the pre-school.";
@@ -193,6 +204,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
-</script> 
-</body>     
+<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+</script>
+</body>
 </html>
